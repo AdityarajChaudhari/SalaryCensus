@@ -5,7 +5,7 @@ import psycopg2
 from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
-model = pickle.load(open('./ModelSaving/dtc.pkl', 'rb'))
+model = pickle.load(open('./ModelSaving/model.pkl', 'rb'))
 print("Inside model")
 scalar = pickle.load(open('./Scaler/Scalar.pkl', 'rb'))
 print("inside scalar")
