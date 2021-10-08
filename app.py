@@ -12,8 +12,8 @@ print("inside scalar")
 
 db = psycopg2.connect(host="ec2-54-208-96-16.compute-1.amazonaws.com",user="xfvpvscvefkokn",password="56730867cc39b2ae0a57c82effcd34ae013c0677d4a6393dec2755523df47507",database="d6fod5imapc1sh")
 cur = db.cursor()
-cur.execute("create table if not exists incomecensus3(Age int, FinalWeight int, MaxEducationalQualification varchar(20), CapitalGain varchar(5), CapitalLoss varchar(5), WorkSector varchar(20), MaritalStatus varchar(15),"
-            "Race varchar(15), Gender varchar(15), WorkStyle varchar(20), Country varchar(10) ,Income Varchar(30)  )")
+cur.execute("create table if not exists incomecensus4(Age int, FinalWeight int, MaxEducationalQualification varchar(20), CapitalGain varchar(5), CapitalLoss varchar(5), WorkSector varchar(20), MaritalStatus varchar(15),"
+            "Race varchar(15), Gender varchar(15), WorkStyle varchar(20), Country varchar(10)  )")
 db.commit()
 
 @cross_origin()
@@ -145,17 +145,12 @@ def predict():
         col9 = (request.form['gender'])
         col10 = (request.form['hours'])
         col11 = (request.form['country'])
-
+        cur.execute(f"insert into incomecensus4 values{(col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11)}")
+        db.commit()
 
         if prediction == np.array(1):
-            a = "More Than 50K"
-            cur.execute(f"insert into incomecensus3 values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10,col11,a)}")
-            db.commit()
             return render_template('./result.html', Prediction_text = "The Salary of an Individual is More than 50K")
         else:
-            b = "Less Than 50K"
-            cur.execute(f"insert into incomecensus3 values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10,col11,b)}")
-            db.commit()
             return render_template('./result.html', Prediction_text = "The Salary of an Individual is Less than 50K")
 
 
