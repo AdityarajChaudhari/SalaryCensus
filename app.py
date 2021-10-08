@@ -10,7 +10,7 @@ print("Inside model")
 scalar = pickle.load(open('./Scaler/Scalar.pkl', 'rb'))
 print("inside scalar")
 
-db = psycopg2.connect(host="localhost",user="postgres",password="Postgres456",database="adityaraj")
+db = psycopg2.connect(host="ec2-54-208-96-16.compute-1.amazonaws.com",user="xfvpvscvefkokn",password="56730867cc39b2ae0a57c82effcd34ae013c0677d4a6393dec2755523df47507",database="d6fod5imapc1sh")
 cur = db.cursor()
 cur.execute("create table if not exists incomecensus3(Age int, FinalWeight int, MaxEducationalQualification varchar(20), CapitalGain varchar(5), CapitalLoss varchar(5), WorkSector varchar(20), MaritalStatus varchar(15),"
             "Race varchar(15), Gender varchar(15), WorkStyle varchar(20), Country varchar(10) ,Income Varchar(30)  )")
