@@ -10,9 +10,9 @@ print("Inside model")
 scalar = pickle.load(open('./Scaler/Scalar.pkl', 'rb'))
 print("inside scalar")
 
-db = psycopg2.connect(host="ec2-44-199-86-61.compute-1.amazonaws.com",user="ucripultcfnyfq",password="8a83eb807254ce8f5e2b7c1281c7ab0b928c34ac4409c396f40f0dcfa7cd679a",database="d7qjn8oe2dejqu")
+db = psycopg2.connect(host="localhost",user="postgres",password="Postgres456",database="adityaraj")
 cur = db.cursor()
-cur.execute("create table if not exists incomecensus(Age int, FinalWeight int, MaxEducationalQualification varchar(20), CapitalGain varchar(5), CapitalLoss varchar(5), WorkSector varchar(20), MaritalStatus varchar(15),"
+cur.execute("create table if not exists incomecensus3(Age int, FinalWeight int, MaxEducationalQualification varchar(20), CapitalGain varchar(5), CapitalLoss varchar(5), WorkSector varchar(20), MaritalStatus varchar(15),"
             "Race varchar(15), Gender varchar(15), WorkStyle varchar(20), Country varchar(10) ,Income Varchar(30)  )")
 db.commit()
 
@@ -149,15 +149,19 @@ def predict():
 
         if prediction == np.array(1):
             a = "More Than 50K"
-            cur.execute(f"insert into incomecensus values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10, col11,a)}")
+            cur.execute(f"insert into incomecensus3 values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10,col11,a)}")
             db.commit()
             return render_template('./result.html', Prediction_text = "The Salary of an Individual is More than 50K")
         else:
             b = "Less Than 50K"
-            cur.execute(f"insert into incomecensus values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10,col11,b)}")
+            cur.execute(f"insert into incomecensus3 values{(col1, col2, col3, col4, col5, col6, col7, col8, col9 , col10,col11,b)}")
             db.commit()
             return render_template('./result.html', Prediction_text = "The Salary of an Individual is Less than 50K")
+
+
+
     else:
+
         return render_template('./home.html')
 
 
