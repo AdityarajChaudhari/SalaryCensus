@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <header>
+                <h1>ADULT CENSUS INCOME PREDICTION</h1><hr>
+            </header>
+        </div>
+
+
+
+        <div class="links">
+
+            <div class="info">
+                <a href="{{ url_for('info') }}",method = "GET">Info</a>
+            </div>
+
+             <div class="about">
+                <a href="{{ url_for('developer') }}",method = "GET">Developer</a>
+            </div>
+
+            <div class="Contact">
+               <a href="{{ url_for('contact') }}",method = "GET">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="quote">
+            <p>Financial independence is all about having more choices </p>
+            <p>-Robert Kiyosaki</p>
+        </div>
+
+        <div class="box">
+            <a href= "{{url_for('index_page')}}" method="GET">
+            <input class="button" type="submit"  value="Predictor" name="" >
+            </a>
+        </div>
+
+        <div class="foot">
+            <footer>Copyright © 2021 by Adityaraj Hemant Chaudhari</footer>
+        </div>
+
+    </div>
+</body>
+</html>

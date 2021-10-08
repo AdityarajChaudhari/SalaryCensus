@@ -1,0 +1,91 @@
+
+body{
+background-image : url('https://c0.wallpaperflare.com/preview/1017/538/491/money-finance-bank-cash.jpg');
+height: 700px; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size:cover;
+background-position: left  ;
+margin:auto;
+}
+
+.heading{
+color :#c7b6b5;
+font-family: calibri;
+font-size : 25px;
+text-align:center;
+font-style : bold;
+margin:auto;
+text-shadow: 5px 3px #000000;
+background-color : #3d3a3a;
+position: relative;
+top: -35px;
+}
+
+.links{
+font-family : calibri;
+font-size:23px;
+background-color : #4f4d4d;
+position: relative;
+top: -75px;
+display: flex;
+gap: 35px;
+align-items: center;
+}
+
+a{
+color :#c7b6b5;
+text-decoration: none;
+text-shadow: 1.5px 0.5px #000;
+font-weight:bold;
+}
+
+a:hover{
+color:#1c1b1b;
+}
+
+.quote{
+color:#c7b6b5;
+text-align:center;
+margin-top:7%;
+font-weight:bold;
+text-shadow: 3px 2px #000;
+font-size:45px;
+font-family:calibri;
+}
+
+.button{
+color:#2b2a2a;
+border-radius:40px;
+text-align:center;
+font-size:25px;
+font-weight:bold;
+text-transform:uppercase;
+background-color:grey;
+box-shadow: 3px 2.5px #000;
+border-color: #000;
+width:45%;
+height:5%;
+top:65%;
+left:28%;
+position:absolute;
+font-family:calibri;
+opacity: 0.45;
+}
+
+.button:hover{
+color:#1c1b1b;
+opacity:0.65;
+}
+
+.foot{
+background-color : #3d3a3a;
+position: relative;
+color:#c7b6b5;
+font-size:25px;
+font-family:calibri;
+font-weight:bold;
+text-align:center;
+margin-top:19%;
+}
+

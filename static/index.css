@@ -1,0 +1,438 @@
+body
+{
+background-image:url("https://thumbs.dreamstime.com/z/pile-coin-money-account-book-finance-banking-concept-background-concept-grow-walk-step-step-pile-coin-money-99951827.jpg");
+height: 900px; /* You must set a specified height */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size:cover;
+background-position: left  ;
+margin:auto;
+}
+
+.header{
+color :#c7b6b5;
+font-family: calibri;
+font-size : 25px;
+text-align:center;
+font-style : bold;
+margin:auto;
+text-shadow: 5px 3px #000000;
+background-color : #3d3a3a;
+position: relative;
+top: -35px;
+}
+
+.button
+{
+border-radius:20px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+text-transform:uppercase;
+background-color:white;
+box-shadow: 3.5px 2.5px #000;
+position: relative;
+left: 20px;
+top:-20px;
+font-family:calibri;
+opacity: 0.9;
+}
+
+.button:hover
+{
+opacity:0.5;
+
+}
+
+.my-form .age
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-bottom: -2%;
+}
+
+.my-form .age-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+margin-right:59.7%;
+width:25%;
+height:25px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .wt
+{
+display:block;
+position:relative;
+text-align:center;
+float:center;
+margin-left:40.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .wt-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+margin-right:16%;
+margin-top:-2%;
+width:25%;
+height:25px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .edu
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-bottom: -4%;
+}
+
+.my-form .edu-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .gain
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:66.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -2.5%;
+}
+
+.my-form .gain-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:16%;
+margin-top:-2.5%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .loss
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -1%;
+}
+
+.my-form .loss-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .wrkclss
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:67%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .wrkclss-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:16%;
+margin-top:-6.5%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .status
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .status-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .race
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:69.3%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .race-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:16%;
+margin-top:-6.5%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .gender
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .gender-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .hours
+{
+display:block;
+position:absolute;
+float:center;
+margin-left:66.7%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -6.5%;
+}
+
+.my-form .hours-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+float:right;
+margin-right:16%;
+margin-top:-6.5%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+
+}
+
+.my-form .country
+{
+display:block;
+text-align:center;
+float:center;
+margin-left:-45.5%;
+font-family:Arial Narrow;
+font-size:25px;
+color:#000;
+font-weight:bold;
+margin-top: -5%;
+}
+
+.my-form .country-i
+{
+display:block;
+font-family:Arial Narrow;
+font-weight:bold;
+text-align:center;
+border-radius: 18px;
+float:right;
+border-color:black;
+margin-right:59.7%;
+margin-top:-2%;
+width:25.5%;
+height:30px;
+box-shadow: 2.2px 2.2px #000000;
+font-size:15px;
+background-color:#F4F6F7 ;
+}
+
+.my-form .reset-but
+{
+color:#000;
+display:block;
+font-family:calibri ;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+width:25.5%;
+height:30px;
+float:right;
+margin-right:59.6%;
+margin-top:4%;
+box-shadow: 2.2px 2.2px #703517;
+
+}
+
+.my-form .submit-but
+{
+color:#000;
+display:block;
+font-family:calibri ;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+border-radius: 18px;
+border-color:black;
+width:25.5%;
+height:30px;
+float:right;
+margin-right:15%;
+margin-top:-2%;
+box-shadow: 2.2px 2.2px #703517;
+}
+
+.my-form button:hover{
+
+opacity:0.70;
+}
+
+.foot{
+background-color : #3d3a3a;
+position: relative;
+color:#c7b6b5;
+font-size:25px;
+font-family:calibri;
+font-weight:bold;
+text-align:center;
+margin-top:6.9%;
+}

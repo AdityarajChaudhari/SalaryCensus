@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+    <link rel="stylesheet" href="../static/info.css">
+</head>
+<body>
+
+    <div class="container">
+         <div class="title">
+             <header>
+                 <h1>INFORMATION OF ADULT CENSUS INCOME PREDICTION</h1>
+             </header>
+         </div>
+
+         <div class="back-page">
+            <a href="{{ url_for ('home') }}" , methods = "GET">
+                <input class="button" type="submit"  value="⬅Back TO home page" name="" >
+            </a>
+        </div>
+        <br>
+
+         <div class="Content">
+             <div class="what">
+                 <h1>What is a Adult Census for Income?</h1>
+             </div>
+
+             <div class="what-ans">
+                 <p>
+                     Based on certain characterstics like age,gender,country,education,etc a survey is organized to determine the amount of people earning above a certain limit set by government standards.This process is called as Adult Census for Income.
+
+                 </p>
+             </div>
+
+
+             <div class ="app-info">
+                 <h1>App Info</h1>
+             </div>
+
+             <div class="app-information">
+                 <p>
+                     The dataset taken for this application is from 1994 Census bureau database by Ronny Kohavi and Barry Becker.Here there are some
+                     of the features/columns like age,gender,race,country,etc which is used to determine the salary of the candidate below or
+                     above the certain limit.There are also some of the factors like relationship,capital-gain and capital-loss which can largely impact the result
+                 </p>
+                 <p>
+                     Here we consider features like age,fnlwgt,gender,country,capital-loss,capital-gain,etc to predict that if the salary is
+                     above or below 50K.To check that is the individual earns more or less than 50K we can make use of this application.
+                 </p>
+             </div>
+
+         </div>
+
+
+         <div class="foot">
+             <footer><marquee>Copyright © 2021 by Adityaraj Hemant Chaudhari</marquee></footer>
+         </div>
+
+     </div>
+
+</body>
+</html>

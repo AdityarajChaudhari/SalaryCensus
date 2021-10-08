@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <header>
+                <h1>ADULT CENSUS INCOME PREDICTION</h1>
+            </header>
+        </div>
+
+        <div class="back-page">
+            <a href="{{ url_for ('home') }}" , methods = "GET">
+                <input class="button" type="submit"  value="⬅Back TO home page" name="">
+            </a>
+        </div>
+
+
+
+        <div class="my-form">
+
+            <form>
+
+
+                <label class="age">Age</label><br><br>
+                <input class="age-i" type="number" name="age" placeholder="Age"  step="1"  min="17" max="90" required="required"><br><br>
+
+                <label class="wt">Final Weight</label><br><br>
+                <input class="wt-i" type="number" name="Final Weight" placeholder="finalweight"  step="1" min="12000" max="330000" required="required"><br><br>
+
+                <label class="edu">Education</label><br><br>
+                <select class="edu-i" name="Education" id="edu" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Higher Studies" >Higher Studies</option>
+                <option value="Bachelors" >Bachelors</option>
+                <option value="Associate" >Associate</option>
+                <option value="Prof-School" >Prof-School</option>
+                <option value="Diploma" >Diploma</option>
+                <option value="School" >School</option>
+                </select><br>
+                <br>
+
+                <label class="gain">Capital-Gain</label><br><br>
+                <select class="gain-i" name="CapitalGain" id="gain" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Yes" >Yes</option>
+                <option value="No" >No</option>
+                </select><br>
+                <br>
+
+                <label class="loss">Capital-Loss</label><br><br>
+                <select class="loss-i" name="CapitalLoss" id="loss" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Yes" >Yes</option>
+                <option value="No" >No</option>
+                </select><br>
+                <br>
+
+
+                <label class="wrkclss">Work Class</label><br><br>
+                <select class="wrkclss-i" name="WorkClass" id="WorkClass" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Private" >Private</option>
+                <option value="Government" >Government</option>
+                <option value="SelfEmployeed" >Self-Employeed</option>
+                <option value="NoIncome" >No-Income</option>
+                </select><br>
+                <br>
+
+
+                <label class="status">Marital-Status</label><br><br>
+                <select class="status-i" name="MaritalStatus" id="status" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Married" >Married</option>
+                <option value="NotMarried" >Not-Married</option>
+                </select><br>
+                <br>
+
+
+                <label class="race">Race</label><br><br>
+                <select class="race-i" name="race" id="race" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="White" >White</option>
+                <option value="Brown" >Brown</option>
+                <option value="Others" >Others</option>
+                </select><br>
+                <br>
+
+
+                <label class="gender">Gender</label><br><br>
+                <select class="gender-i" name="gender" id="gender" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+                </select><br>
+                <br>
+
+
+                <label class="hours">Weekly Hours</label><br><br>
+                <select class="hours-i" name="hours" id="hours" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="ideal" >Ideal-Time</option>
+                <option value="over" >Over-Time</option>
+                <option value="part" >Part-Time</option>
+                </select><br>
+                <br>
+
+
+                <label class="country">Country</label><br><br>
+                <select class="country-i" name="country" id="country" required="required">
+                <option disabled selected value>  - select -  </option>
+                <option value="US" >US</option>
+                <option value="Non-US" >Non-US</option>
+                </select><br>
+                <br>
+
+
+
+
+                <button  type="reset" class="reset-but">Reset</button>
+
+                <br><br>
+
+
+                <button  formaction="{{url_for ('predict')}}" formmethod="post" type="submit" class="submit-but" value="predict">Predict</button>
+
+
+
+                <div class="foot">
+                <footer>Copyright © 2021 by Adityaraj Hemant Chaudhari</footer>
+                </div>
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>

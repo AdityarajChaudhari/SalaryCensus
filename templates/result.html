@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+    <link rel="stylesheet"  href="../static/result.css">
+
+</head>
+<body>
+
+        <div class="container">
+
+             <div class="title">
+                 <header>
+                     <h1>Final Prediction</h1>
+                 </header>
+             </div>
+            <br><br><br>
+
+            <div class="back-page">
+                <a href="{{ url_for ('index_page') }}", methods = "GET">
+                    <input class="button" type="submit"  value="Back To Application" name="" >
+                </a>
+            </div>
+            <h1 class="text">{{Prediction_text}}</h1>
+            <div class="foot">
+                <footer>Copyright © 2021 by Adityaraj Hemant Chaudhari</footer>
+            </div>
+
+        </div>
+</body>
+</html>
