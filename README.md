@@ -39,7 +39,7 @@ Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can de
 
 ## DATABASE USED - 
 
-POSTGRSQL
+POSTGRESQL
 
 
 ## CLOUD PLATFORM USED - 
