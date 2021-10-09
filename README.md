@@ -30,4 +30,4 @@ Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can de
 
 7.Pickle - 1.0.2
 
-![Screenshot](Screenshot (224).png)
+![alt text](https://github.com/AdityarajChaudhari/SalaryCensus/blob/main/Screenshot%20(224).png)
