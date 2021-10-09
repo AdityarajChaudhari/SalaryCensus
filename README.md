@@ -56,4 +56,4 @@ Here we consider features like age,fnlwgt,gender,country,capital-loss,capital-ga
 
 ## DESCRIPTIVE VIDEO - 
 
-![alt text](https://drive.google.com/file/d/111kroxbb7prpQA4r9tVAC-azEv4wfQbp/view?usp=sharing)
+![Watch the video](https://drive.google.com/file/d/111kroxbb7prpQA4r9tVAC-azEv4wfQbp/view?usp=sharing)
