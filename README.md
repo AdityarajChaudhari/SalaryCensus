@@ -48,7 +48,7 @@ POSTGRESQL
 
 ## 💨CLOUD PLATFORM USED - 
 
-Heroku
+Heroku Cloud Platform
 
 
 ## 💨APP INFO - 
