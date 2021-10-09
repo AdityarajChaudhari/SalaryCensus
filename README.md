@@ -17,11 +17,17 @@ Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can de
 ## IMPORTANT PYTHON LIBRARIES - 
 
 1.Python - 3.7+
+
 2.Numpy  - 1.19.0+
+
 3.Pandas - 1.1.3+
+
 4.Scikit-Learn - 0.24.1
+
 5.psycopg2 - 2.9.1
+
 6.Flask - 1.1.1
+
 7.Pickle - 1.0.2
 
 ## 
