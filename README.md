@@ -22,7 +22,7 @@ Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can de
 Salary Census Prediction - https://salaycensus1.herokuapp.com/
 
 
-## 💨IMPORTANT PYTHON LIBRARIES 🧾
+## 💨 IMPORTANT PYTHON LIBRARIES 🧾
 
 1.Python - 3.7+
 
