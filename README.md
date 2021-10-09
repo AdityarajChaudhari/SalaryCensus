@@ -15,7 +15,7 @@ This is the use case from Finance Domain.
 
 ## OBJECTIVE - 
 
-Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can determine that if the salary of the person is above or below a certain limit.Here in ours case we consider these above mentioned factors to check whether the salary of the individual is # More than 50K or # Less than 50K.
+Based on Certain aspects like Age,Gender,Race/Ethnicity,Work-Style,etc we can determine that if the salary of the person is above or below a certain limit.Here in ours case we consider these above mentioned factors to check whether the salary of the individual is ** More than 50K ** or # ** Less than 50K **.
 
 
 ## IMPORTANT PYTHON LIBRARIES - 
@@ -55,6 +55,5 @@ Here we consider features like age,fnlwgt,gender,country,capital-loss,capital-ga
 
 
 ## DESCRIPTIVE VIDEO - 
-
 
 
