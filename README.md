@@ -24,19 +24,19 @@ Salary Census Prediction - https://salaycensus1.herokuapp.com/
 
 ## 💨 IMPORTANT PYTHON LIBRARIES 🧾
 
-1.Python ➡ 3.7+
+1.Python - 3.7+
 
-2.Numpy  ➡ 1.19.1
+2.Numpy  - 1.19.1
 
-3.Pandas ➡ 1.1.4
+3.Pandas - 1.1.4
 
-4.Scikit-Learn ➡ 0.24.1
+4.Scikit-Learn - 0.24.1
 
-5.psycopg2 ➡ 2.9.1
+5.psycopg2 - 2.9.1
 
-6.Flask ➡ 1.1.1
+6.Flask - 1.1.1
 
-7.Pickle ➡ 1.0.2
+7.Pickle - 1.0.2
 
 ![alt text](https://github.com/AdityarajChaudhari/SalaryCensus/blob/main/Screenshot%20(224).png)
 
