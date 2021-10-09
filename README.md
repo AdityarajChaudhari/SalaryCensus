@@ -43,7 +43,7 @@ Salary Census Prediction - https://salaycensus1.herokuapp.com/
 
 ## 💨 DATABASE USED 🛢
 
-POSTGRESQL
+PostgreSQL
 
 
 ## 💨 CLOUD PLATFORM USED ☁ 
