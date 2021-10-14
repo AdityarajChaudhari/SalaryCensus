@@ -67,7 +67,7 @@ https://user-images.githubusercontent.com/69085978/136650993-ad022420-8750-419e-
 
 ## 💨 CONTRIBUTOR/AUTHOR 👨‍💻
 
-Adityaraj Hemant Chaudhari.
+**Adityaraj Hemant Chaudhari.**
 
 **Linkedin** - https://www.linkedin.com/in/adityaraj-chaudhari-4450701b9/
 
